@@ -1,0 +1,210 @@
+[{
+  "_id": {
+    "$oid": "69e6056ca32b6372f6125e63"
+  },
+  "title": "Stunning Sea-View Penthouse",
+  "type": "flat",
+  "location": "Marine Drive, Mumbai",
+  "city": "Mumbai",
+  "price": 8500,
+  "price_unit": "night",
+  "bedrooms": 3,
+  "bathrooms": 2,
+  "area": 1800,
+  "rating": 4.92,
+  "reviewCount": 128,
+  "images": [
+    "https://images.unsplash.com/photo-1502672260266-1c1ef2d93688?w=800&q=80"
+  ],
+  "amenities": [
+    "WiFi",
+    "Pool",
+    "Kitchen",
+    "Parking",
+    "AC",
+    "Gym"
+  ],
+  "description": "Sea view luxury penthouse",
+  "status": "active"
+},
+{
+  "_id": {
+    "$oid": "69e6056ca32b6372f6125e64"
+  },
+  "title": "Heritage Homestay in Old City",
+  "type": "homestay",
+  "location": "Jaipur, Rajasthan",
+  "city": "Jaipur",
+  "price": 3200,
+  "price_unit": "night",
+  "bedrooms": 2,
+  "bathrooms": 1,
+  "area": 1200,
+  "rating": 4.87,
+  "reviewCount": 95,
+  "images": [
+    "https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?w=800&q=80"
+  ],
+  "amenities": [
+    "WiFi",
+    "Kitchen",
+    "Garden",
+    "AC"
+  ],
+  "description": "Heritage stay",
+  "status": "active"
+},
+{
+  "_id": {
+    "$oid": "69e6056ca32b6372f6125e65"
+  },
+  "title": "Luxury Pool Villa with Garden",
+  "type": "villa",
+  "location": "Goa",
+  "city": "Goa",
+  "price": 15000,
+  "price_unit": "night",
+  "bedrooms": 4,
+  "bathrooms": 3,
+  "area": 3500,
+  "rating": 4.95,
+  "reviewCount": 212,
+  "images": [
+    "https://images.unsplash.com/photo-1613490493576-7fde63acd811?w=800&q=80"
+  ],
+  "amenities": [
+    "WiFi",
+    "Pool",
+    "Kitchen",
+    "Parking",
+    "AC"
+  ],
+  "description": "Private pool villa",
+  "status": "active"
+},
+{
+  "_id": {
+    "$oid": "69e6056ca32b6372f6125e66"
+  },
+  "title": "Prime Commercial Space - MG Road",
+  "type": "shop",
+  "location": "Bangalore",
+  "city": "Bangalore",
+  "price": 45000,
+  "price_unit": "month",
+  "bedrooms": 0,
+  "bathrooms": 1,
+  "area": 800,
+  "rating": 4.6,
+  "reviewCount": 34,
+  "images": [
+    "https://images.unsplash.com/photo-1497366216548-37526070297c?w=800&q=80"
+  ],
+  "amenities": [
+    "WiFi",
+    "Parking",
+    "AC"
+  ],
+  "description": "Commercial space",
+  "status": "active"
+},
+{
+  "_id": {
+    "$oid": "69e6056ca32b6372f6125e67"
+  },
+  "title": "Cozy Mountain Retreat",
+  "type": "homestay",
+  "location": "Manali",
+  "city": "Manali",
+  "price": 2800,
+  "price_unit": "night",
+  "bedrooms": 2,
+  "bathrooms": 1,
+  "area": 900,
+  "rating": 4.88,
+  "reviewCount": 76,
+  "images": [
+    "https://images.unsplash.com/photo-1518780664697-55e3ad937233?w=800&q=80"
+  ],
+  "amenities": [
+    "WiFi",
+    "Fireplace"
+  ],
+  "description": "Mountain stay",
+  "status": "active"
+},
+{
+  "_id": {
+    "$oid": "69e6056ca32b6372f6125e68"
+  },
+  "title": "Modern Studio Apartment",
+  "type": "flat",
+  "location": "Bangalore",
+  "city": "Bangalore",
+  "price": 4200,
+  "price_unit": "night",
+  "bedrooms": 1,
+  "bathrooms": 1,
+  "area": 650,
+  "rating": 4.75,
+  "reviewCount": 58,
+  "images": [
+    "https://images.unsplash.com/photo-1522708323590-d24dbb6b0267?w=800&q=80"
+  ],
+  "amenities": [
+    "WiFi",
+    "AC"
+  ],
+  "description": "Studio flat",
+  "status": "active"
+},
+{
+  "_id": {
+    "$oid": "69e6056ca32b6372f6125e69"
+  },
+  "title": "Beachfront Villa Paradise",
+  "type": "villa",
+  "location": "Kerala",
+  "city": "Kerala",
+  "price": 12000,
+  "price_unit": "night",
+  "bedrooms": 3,
+  "bathrooms": 2,
+  "area": 2800,
+  "rating": 4.91,
+  "reviewCount": 167,
+  "images": [
+    "https://images.unsplash.com/photo-1564013799919-ab600027ffc6?w=800&q=80"
+  ],
+  "amenities": [
+    "WiFi",
+    "Pool"
+  ],
+  "description": "Beach villa",
+  "status": "active"
+},
+{
+  "_id": {
+    "$oid": "69e6056ca32b6372f6125e6a"
+  },
+  "title": "Boutique Shop Space - Khan Market",
+  "type": "shop",
+  "location": "Delhi",
+  "city": "Delhi",
+  "price": 85000,
+  "price_unit": "month",
+  "bedrooms": 0,
+  "bathrooms": 1,
+  "area": 500,
+  "rating": 4.5,
+  "reviewCount": 22,
+  "images": [
+    "https://images.unsplash.com/photo-1604014237800-1c9102c219da?w=800&q=80"
+  ],
+  "amenities": [
+    "WiFi",
+    "AC"
+  ],
+  "description": "Retail space",
+  "status": "active"
+}]

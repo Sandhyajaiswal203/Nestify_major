@@ -1,0 +1,39 @@
+[{
+  "_id": {
+    "$oid": "69e60597a32b6372f6125e6d"
+  },
+  "property_title": "Stunning Sea-View Penthouse",
+  "guest_name": "Rahul Mehta",
+  "guest_email": "rahul@example.com",
+  "check_in": "2026-03-10",
+  "check_out": "2026-03-14",
+  "guests": 2,
+  "total_price": 34000,
+  "status": "pending"
+},
+{
+  "_id": {
+    "$oid": "69e60597a32b6372f6125e6e"
+  },
+  "property_title": "Luxury Pool Villa with Garden",
+  "guest_name": "Aisha Khan",
+  "guest_email": "aisha@example.com",
+  "check_in": "2026-03-20",
+  "check_out": "2026-03-25",
+  "guests": 4,
+  "total_price": 75000,
+  "status": "pending"
+},
+{
+  "_id": {
+    "$oid": "69e60597a32b6372f6125e6f"
+  },
+  "property_title": "Stunning Sea-View Penthouse",
+  "guest_name": "Sneha Reddy",
+  "guest_email": "sneha@example.com",
+  "check_in": "2026-02-25",
+  "check_out": "2026-02-28",
+  "guests": 3,
+  "total_price": 25500,
+  "status": "confirmed"
+}]

@@ -1,0 +1,20 @@
+[{
+  "_id": {
+    "$oid": "69e60602a32b6372f6125e72"
+  },
+  "property_title": "Stunning Sea-View Penthouse",
+  "user_name": "Rahul Mehta",
+  "rating": 5,
+  "comment": "Amazing view and great stay!",
+  "created_at": "2026-03-15"
+},
+{
+  "_id": {
+    "$oid": "69e60602a32b6372f6125e73"
+  },
+  "property_title": "Luxury Pool Villa with Garden",
+  "user_name": "Aisha Khan",
+  "rating": 4,
+  "comment": "Beautiful villa, worth the price",
+  "created_at": "2026-03-26"
+}]
