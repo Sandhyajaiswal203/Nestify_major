@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=DM+Sans:wght@400;500;600;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 0 0% 100%;
+    --foreground: 0 0% 12%;
+
+    --card: 0 0% 100%;
+    --card-foreground: 0 0% 12%;
+
+    --popover: 0 0% 100%;
+    --popover-foreground: 0 0% 12%;
+
+    --primary: 1 83% 63%;
+    --primary-foreground: 0 0% 100%;
+
+    --secondary: 30 30% 96%;
+    --secondary-foreground: 0 0% 12%;
+
+    --muted: 30 15% 95%;
+    --muted-foreground: 0 0% 45%;
+
+    --accent: 30 30% 96%;
+    --accent-foreground: 0 0% 12%;
+
+    --destructive: 0 84% 60%;
+    --destructive-foreground: 0 0% 100%;
+
+    --border: 30 15% 90%;
+    --input: 30 15% 90%;
+    --ring: 1 83% 63%;
+
+    --radius: 0.75rem;
+
+    --sidebar-background: 0 0% 98%;
+    --sidebar-foreground: 240 5.3% 26.1%;
+    --sidebar-primary: 1 83% 63%;
+    --sidebar-primary-foreground: 0 0% 100%;
+    --sidebar-accent: 30 30% 96%;
+    --sidebar-accent-foreground: 0 0% 12%;
+    --sidebar-border: 30 15% 90%;
+    --sidebar-ring: 1 83% 63%;
+
+    /* Nestify custom tokens */
+    --coral: 1 83% 63%;
+    --coral-light: 1 83% 90%;
+    --coral-dark: 1 83% 50%;
+    --warm-gray: 30 10% 55%;
+    --warm-gray-light: 30 15% 97%;
+    --gold: 40 90% 55%;
+    --success: 152 60% 45%;
+    --info: 210 70% 55%;
+
+    /* Gradients */
+    --gradient-hero: linear-gradient(135deg, hsl(1 83% 63%), hsl(20 90% 60%));
+    --gradient-warm: linear-gradient(135deg, hsl(30 30% 96%), hsl(0 0% 100%));
+    --gradient-overlay: linear-gradient(180deg, hsla(0 0% 0% / 0.0) 0%, hsla(0 0% 0% / 0.6) 100%);
+
+    /* Shadows */
+    --shadow-card: 0 1px 3px hsla(0 0% 0% / 0.08), 0 4px 12px hsla(0 0% 0% / 0.04);
+    --shadow-card-hover: 0 4px 16px hsla(0 0% 0% / 0.12), 0 8px 32px hsla(0 0% 0% / 0.06);
+    --shadow-elevated: 0 8px 28px hsla(0 0% 0% / 0.15), 0 2px 8px hsla(0 0% 0% / 0.06);
+    --shadow-button: 0 2px 8px hsla(1 83% 63% / 0.3);
+
+    /* Typography */
+    --font-display: 'Plus Jakarta Sans', sans-serif;
+    --font-body: 'DM Sans', sans-serif;
+  }
+
+  .dark {
+    --background: 0 0% 7%;
+    --foreground: 0 0% 95%;
+    --card: 0 0% 10%;
+    --card-foreground: 0 0% 95%;
+    --popover: 0 0% 10%;
+    --popover-foreground: 0 0% 95%;
+    --primary: 1 83% 63%;
+    --primary-foreground: 0 0% 100%;
+    --secondary: 0 0% 15%;
+    --secondary-foreground: 0 0% 95%;
+    --muted: 0 0% 15%;
+    --muted-foreground: 0 0% 60%;
+    --accent: 0 0% 15%;
+    --accent-foreground: 0 0% 95%;
+    --destructive: 0 62% 30%;
+    --destructive-foreground: 0 0% 95%;
+    --border: 0 0% 18%;
+    --input: 0 0% 18%;
+    --ring: 1 83% 63%;
+    --sidebar-background: 0 0% 8%;
+    --sidebar-foreground: 0 0% 95%;
+    --sidebar-primary: 1 83% 63%;
+    --sidebar-primary-foreground: 0 0% 100%;
+    --sidebar-accent: 0 0% 15%;
+    --sidebar-accent-foreground: 0 0% 95%;
+    --sidebar-border: 0 0% 18%;
+    --sidebar-ring: 1 83% 63%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground;
+    font-family: var(--font-body);
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    font-family: var(--font-display);
+  }
+}
+
+@layer utilities {
+  .text-gradient {
+    @apply bg-clip-text text-transparent;
+    background-image: var(--gradient-hero);
+  }
+
+  .shadow-card {
+    box-shadow: var(--shadow-card);
+  }
+
+  .shadow-card-hover {
+    box-shadow: var(--shadow-card-hover);
+  }
+
+  .shadow-elevated {
+    box-shadow: var(--shadow-elevated);
+  }
+
+  .shadow-button {
+    box-shadow: var(--shadow-button);
+  }
+
+  .bg-gradient-hero {
+    background-image: var(--gradient-hero);
+  }
+
+  .bg-gradient-overlay {
+    background-image: var(--gradient-overlay);
+  }
+}
+
+@layer base {
+  /* Remove Lovable badge */
+  #lovable-badge {
+    display: none !important;
+  }
+}
